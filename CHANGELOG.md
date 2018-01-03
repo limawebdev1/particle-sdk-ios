@@ -4,7 +4,7 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
-## [0.7.0](https://github.com/spark/spark-sdk-ios/releases/tag/0.7.0) (2017-04-04)
+## [0.7.0](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.7.0) (2017-04-04)
 
 * Overdue rename from Spark to Particle! SparkCloud is now ParticleCloud, same for ParticleDevice etc.
 
@@ -12,7 +12,7 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * Documentation update
 
-## [0.6.0](https://github.com/spark/spark-sdk-ios/releases/tag/0.6.0) (2017-02-03)
+## [0.6.0](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.6.0) (2017-02-03)
 
 * Updated: Product endpoints depracates Org endpoints
 
@@ -30,13 +30,13 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * Bigfix: MBs Usage for Electron endpoint API response fix
 
-## [0.5.1](https://github.com/spark/spark-sdk-ios/releases/tag/0.5.1) (2016-09-07)
+## [0.5.1](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.5.1) (2016-09-07)
 
 * Bigfix: Functions (Array) and Variables (Dictionary) in a ParticleDevice instance will sometimes contain unknown type values for offline devices, this might cause problems with Swift - fixed.
 
 * Added: Set both those fields to nonnull for better Swift interoperability.
 
-## [0.5.0](https://github.com/spark/spark-sdk-ios/releases/tag/0.5.0) (2016-07-21)
+## [0.5.0](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.5.0) (2016-07-21)
 
 * Added: ParticleDevice API function: getCurrentDataUsage for Electron devices 
 
@@ -60,7 +60,7 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * Updated: Documentation
 
-## [0.4.1](https://github.com/spark/spark-sdk-ios/releases/tag/0.4.1) (2016-03-29)
+## [0.4.1](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.4.1) (2016-03-29)
 
 * Fix a bug with password reset API endpoint
 
@@ -72,7 +72,7 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * Merged the ParticleUser and ParticleAccessToken classes into one ParticleSession class
 
-## [0.4.0](https://github.com/spark/spark-sdk-ios/releases/tag/0.4.0) (2016-03-02)
+## [0.4.0](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.4.0) (2016-03-02)
 
 * Nullability support for even better Swift interoperability. No more implicitly unwrapped arguments in Swift from SDK callbacks!
 
@@ -80,19 +80,19 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * AFNetworking 3.0 support - SDK now returns NSURLSessionDataTask object from every network operation function.
 
-## [0.3.4](https://github.com/spark/spark-sdk-ios/releases/tag/0.3.4) (2015-12-15)
+## [0.3.4](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.3.4) (2015-12-15)
 
 * SDK now knows about Particle Electrons!
 
 * Force AFNetworking pod version to 2.x.x to until migration to 3.x.x requirements is complete
 
-## [0.3.3](https://github.com/spark/spark-sdk-ios/releases/tag/0.3.3) (2015-07-22)
+## [0.3.3](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.3.3) (2015-07-22)
 
 * Fix crash in case error object is nil across cloud SDK functions failure blocks
 
 * Get rid of compiler warnings
 
-## [0.3.2](https://github.com/spark/spark-sdk-ios/releases/tag/0.3.2) (2015-07-22)
+## [0.3.2](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.3.2) (2015-07-22)
 
 * README documentation for OAuth credentials
 
@@ -100,7 +100,7 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * Detailed error logging from cloud SDK functions
 
-## [0.3.1](https://github.com/spark/spark-sdk-ios/releases/tag/0.3.1) (2015-07-22)
+## [0.3.1](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.3.1) (2015-07-22)
 
 * document generateClaimCodeForOrganization func
 
@@ -110,15 +110,15 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * README fixes, CHANGELOG added
 
-## [0.3.0](https://github.com/spark/spark-sdk-ios/releases/tag/0.3.0) (2015-07-22)
+## [0.3.0](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.3.0) (2015-07-22)
 
-* Events pub/sub system added to the Cloud SDK - see [here](https://github.com/spark/spark-sdk-ios/blob/master/README.md#events-sub-system)
+* Events pub/sub system added to the Cloud SDK - see [here](https://github.com/particle-iot/spark-sdk-ios/blob/master/README.md#events-sub-system)
 
 * Continous integration in [Travis-CI](https://travis-ci.org/spark/spark-sdk-ios).
 
 * Unit tests added.
 
-## [0.2.10](https://github.com/spark/spark-sdk-ios/releases/tag/0.2.10) (2015-06-05)
+## [0.2.10](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.2.10) (2015-06-05)
 
 * Add flash files to device API call (flashFiles:)
 
@@ -126,27 +126,27 @@ Particle iOS Cloud SDK adheres to [Semantic Versioning](http://semver.org/).
 
 * Internal isFlashing timer
 
-## [0.2.9](https://github.com/spark/spark-sdk-ios/releases/tag/0.2.9) (2015-05-20)
+## [0.2.9](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.2.9) (2015-05-20)
 
 * License fix on podspec
 
-## [0.2.8](https://github.com/spark/spark-sdk-ios/releases/tag/0.2.8) (2015-05-20)
+## [0.2.8](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.2.8) (2015-05-20)
 
 * License updated to Apache 2.0
 
 * Documentation update
 
-## [0.2.7](https://github.com/spark/spark-sdk-ios/releases/tag/0.2.7) (2015-05-12)
+## [0.2.7](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.2.7) (2015-05-12)
 
 * Bug fix bad getDevice API call
 
-## [0.2.6](https://github.com/spark/spark-sdk-ios/releases/tag/0.2.6) (2015-05-06)
+## [0.2.6](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.2.6) (2015-05-06)
 
 * Added device type field to ParticleDevice
 
 * Bug fix rename device API call
 
-## [0.2.5](https://github.com/spark/spark-sdk-ios/releases/tag/0.2.5) (2015-05-04)
+## [0.2.5](https://github.com/particle-iot/spark-sdk-ios/releases/tag/0.2.5) (2015-05-04)
 
 * Device refresh API call available
 
